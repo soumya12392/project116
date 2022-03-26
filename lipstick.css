@@ -1,0 +1,40 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    font-size: 25px !important;
+    box-shadow: 1px 1px 15px #000000;
+}
+
+canvas {
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    from {box-shadow: 1px 1px 38px #00a2ff;}
+    to {box-shadow: 1px 1px 38px #09ff00;}
+}
+
+.btn-danger {
+    margin: 50px;
+    height: 50px;
+    width: 250px;
+    font-size: 25px !important;
+}
+
+.btn-success {
+    margin-top: -50px;
+}
+
+.btn-info {
+    margin-top: -100px;
+}
+
+button {
+    box-shadow: 1px 1px 15px #000000;
+}
